@@ -10,12 +10,15 @@ body{
 }
 main{
   display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
 }
 .leftSection{
   background-color: #ffffff;
   flex-grow: 1;
   display: flex;
   align-items: center;
+  padding: 1em;
 }
 .leftContent{
   display: flex;
