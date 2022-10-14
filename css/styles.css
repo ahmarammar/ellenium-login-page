@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+}
+main{
+  display: flex;
+}
+.leftSection{
+  background-color: #ffffff;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.leftContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+.rightSection{
+  background-color: #f1f3f6;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightSection img{
+  height: 70%;
+  width: auto;
+}
+.leftSection img{
+  background-color: #FD7401;
+}
+.mainHeading{
+  color: #FD7401;
+  font-size: 3rem;
+}
+.loginHeading{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+}
+.emailSection, .passwordSection{ 
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  color: #888888;
+  padding-bottom: 0.5em;
+}
+.emailInput, .passwordLogin{
+  display: flex;
+  justify-content: center;
+}
+input{
+  background-color: #f1f3f6;
+  border: none;
+  color: #555555;
+  padding: 1em 8em 1em 1em;
+  font-size: 0.9em;
+  outline: none;
+  border-radius: 0.5em;
+}
+.forgotPass{
+  font-size: 0.9rem;
+  width: 40%;
+  margin-left: auto;
+  margin-bottom: 0.5em;
+}
+.loginBtn{
+  width: 67%;
+  border: 1px solid #FD7401;
+  background-color: #FD7401;
+  color: #f1f3f6;
+  padding: 0.8em 2.2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.orSection{
+  color: #888888;
+}
+.signupBtn{
+  width: 67%;
+  border: 1px solid #FD7401;
+  background-color: #ffffff;
+  color: #FD7401;
+  padding: 0.8em 2.2em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.loginBtn:hover{
+  color: #FD7401;
+  border: 1px solid #FD7401;
+  background-color: #ffffff;
+}
+.signupBtn:hover{
+  color: #ffffff;
+  border: 1px solid #FD7401;
+  background-color: #FD7401;
+}
+.forgotPass:hover{
+  text-decoration: none;
+}
